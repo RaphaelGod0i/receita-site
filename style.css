@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'Friday';
+    src: url(fontes/Friday.otf) format('opentype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Fredericka+the+Great&family=Lobster&display=swap');
+
+:root {
+    --cor0: #F28585;
+    --cor1: #F2C6C2;
+    --cor2: #F2E8DF;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: var(--cor0);
+    min-height: 150px;
+    max-height: 200px;
+}
+
+
+header > h1 {
+    text-align: center;
+    display: block;
+    color: white;
+    font-family: 'Friday';
+    font-weight: normal;
+    font-size: 2.5em;
+    padding-top: 70px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.438);
+}
+
+.logo{
+    padding: 4px;
+    margin: auto;
+    width: 250px;
+    max-width: 100%;
+}
+
+nav {
+    background-color: var(--cor0);
+    padding: 10px;
+    text-shadow: 0px 7px 9px rgba(0, 0, 0, 0.315);
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    margin: auto 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+
+nav a:hover {
+    background-color: #86A69D;
+    text-decoration: underline;
+}
+
+body {
+    background-color: var(--cor2);
+}
+
+main {
+    margin: auto;
+    text-align: justify;
+    min-width: 400px;
+    max-width: 1050px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: var(--cor1);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+main article {
+    margin: -15px auto;
+}
+
+main h1 {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Friday';
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.432);
+    font-size: 2em;
+    font-weight: normal;
+}
+
+.video {
+    background-color: #F2C6C2;
+    margin:0px -20px 30px -20px;
+    padding: 15px;
+    padding-bottom: 49%;
+    position: relative;
+}
+
+.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+main h2 {
+    margin: 11px auto;
+    text-align: justify;
+    font-family: 'Friday';
+    color: white;
+    font-weight: normal;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.671);
+}
+
+main ul > li {
+    text-align: justify;
+    margin: auto 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+main ol > li {
+    text-align: justify;
+    margin: auto 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+
+main h3 {
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Friday';
+    font-weight: normal;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.486);
+    padding: 20px 14px 15px 15px;
+    margin: 5px;
+}
+
+.sub { 
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Friday';
+    font-weight: normal;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.418);
+    text-decoration: underline;
+    padding: 5px;
+}
+
+main p {
+    text-align: justify;
+    text-indent: 15px;
+    margin: auto;
+    font-weight: bold;
+}
+
+.extra {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    padding: 5px;
+    margin: auto;
+}
+
+footer {
+    background-color: #F28585;
+    color: white;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.recipe li {
+    margin-top: 5px;
+    text-align: center;
+    list-style-position: inside;
+    text-align: center;
+    list-style-type: none;
+}
+
+.receita {
+    
+    color: white;
+    font-family: 'Friday';
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 1.2em;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.356);
+}
+
+.receita:hover {
+    text-decoration: underline;
+    background-color: #F28585;
+    transition-duration: .5s;
+}
+
+.meio {
+    margin-top: 100px;
+    border-radius: 15px;
+}
+
+.comida {
+
+    max-width: 500px;
+    display: block;
+    margin: 15px auto;
+}
+
+.parme {
+    max-width: 400px;
+    display: block;
+    margin: 15px auto;
+}
